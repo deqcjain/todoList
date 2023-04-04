@@ -1,0 +1,60 @@
+.container{
+    position: relative;
+    width: fit-content;
+    height: 30px;
+    margin: 0 auto;
+}
+
+
+#input1{
+    padding-right: 20%;
+    margin-top: 10%;
+}
+#input1:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+
+.inputs button{
+    width: 60%;
+    height: 30px;
+    margin-top: 10px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.inputs button:hover{
+    background-color: #bbb;
+}
+
+.flexbox-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.flexbox-item{
+    position: relative;
+    top: 75px;
+    min-width:50px;
+    /* left: 100%; */
+    width: 300px;
+    border: 2px solid #333;
+    flex-grow: 1;
+}
+
+ul{
+    position: relative;
+    left: auto;
+}
+
+li{
+    width: 150px;
+}
+  
+  li:hover {
+    background-color: red;
+    color: white;
+  }
+  
