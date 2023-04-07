@@ -13,3 +13,12 @@ function addHandler() {
       li.addEventListener("click", removeTask);
     }
   }
+
+  function removeTask(event) {
+    const todoNode = event.target.closest(".todoNodes");
+    if (todoNode) {
+      todoNode.remove();
+    }
+    document.getElementById("input1").value = "";
+  }
+  
